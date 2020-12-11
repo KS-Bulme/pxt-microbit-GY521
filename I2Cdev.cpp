@@ -5,7 +5,7 @@
 
 #include "I2Cdev.h"
 
-#define useDebugSerial 1
+#define useDebugSerial
 
 I2Cdev::I2Cdev(): debugSerial(USBTX, USBRX), i2c(I2C_SDA0, I2C_SCL0) //I2C_SDA,I2C_SCL)
 {
